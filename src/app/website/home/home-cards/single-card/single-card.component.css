@@ -1,0 +1,1046 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 350px;
+    height: 449px;
+    margin: 0 auto;
+  }
+  .wrapper {
+    position: relative;
+    width: 350px;
+    height: 257px;
+    margin: 0 0 0 0;
+    background: rgba(202, 198, 198, 0);
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    z-index: 1;
+    overflow: visible auto;
+    border-radius: 12px 12px 0 0;
+  }
+  .section {
+    position: relative;
+    width: 337px;
+    height: 119px;
+    margin: 11px 0 0 11px;
+    z-index: 19;
+  }
+  .section .img {
+    position: absolute;
+    width: 143px;
+    height: 119px;
+    top: 0;
+    left: 0;
+    background: url(https://images.unsplash.com/photo-1494548162494-384bba4ab999?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+    border-radius: 12px;
+  }
+  .pic {
+    position: absolute;
+    width: 27px;
+    height: 28.029px;
+    top: 0;
+    left: 301px;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+  }
+  .pic-2 {
+    position: absolute;
+    width: 15.07px;
+    height: 15.644px;
+    top: 6.519px;
+    left: 307.279px;
+    /* background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 14;
+  }
+  .wrapper-2 {
+    position: absolute;
+    width: 49px;
+    height: 15px;
+    top: 25px;
+    left: 154px;
+    background: rgba(223, 207, 207, 0);
+    border: 0.5px solid #ef7d02;
+    z-index: 15;
+    border-radius: 2px 0 0 2px;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 26px;
+    height: 10px;
+    top: calc(50% - 5px);
+    left: calc(50% - 13px);
+    color: #ef7d02;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 800;
+    line-height: 10px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 16;
+  }
+  .group {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    top: 25px;
+    left: 203px;
+    background: #ef7d02;
+    z-index: 17;
+    border-radius: 0 2px 2px 0;
+  }
+  .text-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 23px;
+    height: 10px;
+    top: 3px;
+    left: 6px;
+    color: #ffffff;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 800;
+    line-height: 10px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .wrapper-3 {
+    position: absolute;
+    width: 49px;
+    height: 15px;
+    top: 50px;
+    left: 154px;
+    background: rgba(223, 207, 207, 0);
+    border: 0.5px solid #ef7d02;
+    z-index: 19;
+    border-radius: 2px;
+  }
+  .text-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 26px;
+    height: 10px;
+    top: calc(50% - 5px);
+    left: calc(50% - 13px);
+    color: #ef7d02;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 800;
+    line-height: 10px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .text-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 183px;
+    height: 38px;
+    top: 72px;
+    left: 154px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.825px;
+    text-align: left;
+    z-index: 11;
+  }
+  .box {
+    position: relative;
+    width: 225px;
+    height: 30px;
+    margin: 17px 0 0 15px;
+    z-index: 32;
+  }
+  .pic-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 21;
+    border-radius: 50%;
+  }
+  .pic-4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 39px;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+    border-radius: 50%;
+  }
+  .pic-5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 78px;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 25;
+    border-radius: 50%;
+  }
+  .img-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 117px;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 27;
+    border-radius: 50%;
+  }
+  .pic-6 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 156px;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 29;
+    border-radius: 50%;
+  }
+  .pic-7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 195px;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 31;
+    border-radius: 50%;
+  }
+  .pic-8 {
+    position: absolute;
+    width: 7.33%;
+    height: 55%;
+    top: 22.5%;
+    left: 3%;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 22;
+  }
+  .pic-9 {
+    position: absolute;
+    width: 7.33%;
+    height: 55%;
+    top: 22.5%;
+    left: 20.33%;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 24;
+  }
+  .pic-a {
+    position: absolute;
+    width: 7.33%;
+    height: 55%;
+    top: 22.5%;
+    left: 37.67%;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 26;
+  }
+  .pic-b {
+    position: absolute;
+    width: 7.33%;
+    height: 55%;
+    top: 22.5%;
+    left: 55%;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 28;
+  }
+  .img-3 {
+    position: absolute;
+    width: 7.33%;
+    height: 55%;
+    top: 22.5%;
+    left: 72.33%;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 30;
+  }
+  .pic-c {
+    position: absolute;
+    width: 7.33%;
+    height: 55%;
+    top: 22.5%;
+    left: 89.67%;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 32;
+  }
+  .wrapper-4 {
+    position: relative;
+    width: 322.5px;
+    height: 18px;
+    margin: 13px 0 0 15px;
+    z-index: 34;
+  }
+  .img-4 {
+    position: absolute;
+    width: 3.91%;
+    height: 85%;
+    top: 0;
+    left: 0;
+    background: url(https://img.freepik.com/free-vector/vector-cartoon-illustration-traditional-set-fast-food-meal_1441-331.jpg?size=626&ext=jpg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+  }
+  .group-2 {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    top: 0;
+    left: 18px;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .text-5 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-6 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-7 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-8 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-9 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 0;
+    left: 113px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .box-2 {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    top: 1px;
+    left: 115px;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .text-b {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-c {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-d {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-e {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-f {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 1px;
+    left: 209px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .group-3 {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    top: 2px;
+    left: 211px;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .text-11 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-12 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-13 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-14 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .text-15 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: center;
+  }
+  .pic-d {
+    position: absolute;
+    width: 4.04px;
+    height: 7.354px;
+    top: 7.813px;
+    left: 318.814px;
+    /* background: url(./assets/images/309b78e8-fd39-4cb7-b4a6-c194492f7ab9.png)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 34;
+  }
+  .img-5 {
+    position: relative;
+    width: 9px;
+    height: 1.8px;
+    margin: -0.8px 0 0 16.8px;
+    /* background: url(./assets/images/ef3f5128-3ab4-4bff-a5a6-6f01bd03129d.png)
+      no-repeat center; */
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+  .box-3 {
+    position: relative;
+    width: 317.5px;
+    height: 24px;
+    margin: 13px 0 0 20px;
+    z-index: 35;
+  }
+  .pic-e {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    /* background: url(./assets/images/406970b6-5ef8-485d-b796-9318d32fa8a3.png)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 33;
+  }
+  .box-4 {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    top: 4px;
+    left: 22px;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .text-16 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .text-17 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .text-18 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .text-19 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .text-1a {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .section-2 {
+    position: absolute;
+    width: 127px;
+    height: 16px;
+    top: 4px;
+    left: 143px;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .text-1b {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .text-1c {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .text-1d {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.315px;
+    text-align: left;
+  }
+  .pic-f {
+    position: absolute;
+    width: 4.04px;
+    height: 7.354px;
+    top: 7.813px;
+    left: 313.814px;
+    /* background: url(./assets/images/2f511d0d-3a0f-40d4-aa1e-ae7a91146575.png)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 35;
+  }
+  .box-5 {
+    position: relative;
+    width: 350px;
+    height: 192px;
+    margin: 0 0 0 0;
+    background: #f0fff9;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    z-index: 36;
+    overflow: visible auto;
+    border-radius: 0 0 12px 12px;
+  }
+  .box-6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 328px;
+    height: 24px;
+    margin: 15px 0 0 11px;
+    z-index: 42;
+  }
+  .section-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 39px;
+    height: 20px;
+    background: #d9d9d9;
+    z-index: 42;
+    border-radius: 2px;
+  }
+  .pic-10 {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    top: 2px;
+    left: 7px;
+    /* background: url(./assets/images/9a59b71e-f251-4f1b-9109-d98b036caf4e.png)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 43;
+    border-radius: 1px;
+  }
+  .text-1e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 2px;
+    left: 24px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 44;
+  }
+  .text-1f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 141px;
+    height: 19px;
+    color: #00b2ff;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.825px;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 41;
+    overflow: hidden;
+  }
+  .text-20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 60px;
+    height: 15px;
+    margin: -5px 0 0 278px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+    text-transform: lowercase;
+    white-space: nowrap;
+    z-index: 39;
+  }
+  .box-7 {
+    position: relative;
+    width: 328px;
+    height: 33px;
+    margin: -2px 0 0 11px;
+    z-index: 48;
+  }
+  .pic-11 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    /* background: url(./assets/images/10fe6f09-acb8-4b3a-9f0a-442eff159ff0.png)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 47;
+    border-radius: 50%;
+  }
+  .wrapper-5 {
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 4px;
+    left: 22px;
+    background: #ef7d02;
+    z-index: 45;
+    border-radius: 2px;
+  }
+  .text-21 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 90px;
+    height: 17px;
+    top: 3px;
+    left: 6px;
+    color: #ffffff;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16.315px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 46;
+  }
+  .text-22 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 109px;
+    height: 28px;
+    top: 5px;
+    left: 219px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27.61px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 37;
+  }
+  .text-23 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    top: 7px;
+    left: 9px;
+    color: #ef7d02;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 13.853355407714844px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 48;
+    -webkit-text-stroke: 1px rgba(239, 125, 2, 0);
+  }
+  .text-24 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 104px;
+    height: 10px;
+    margin: -1px 0 0 234px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 40;
+  }
+  .text-25 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 121px;
+    height: 15px;
+    margin: 5px 0 0 217px;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .box-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 328px;
+    height: 39px;
+    margin: 25px 0 0 11px;
+    z-index: 52;
+  }
+  .box-9 {
+    flex-shrink: 0;
+    position: relative;
+    width: 137px;
+    height: 39px;
+    background: rgba(217, 217, 217, 0);
+    border: 0.5px solid #000000;
+    z-index: 50;
+    border-radius: 2px;
+  }
+  .section-4 {
+    position: relative;
+    width: 72px;
+    height: 15px;
+    margin: 12px 0 0 32px;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 51;
+  }
+  .text-26 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.06px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .text-27 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.06px;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  .text-28 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.06px;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  .text-29 {
+    position: relative;
+    color: #000000;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.06px;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  .section-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 137px;
+    height: 39px;
+    background: #ef7d02;
+    z-index: 52;
+    border-radius: 2px;
+  }
+  .text-2a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 71px;
+    height: 15px;
+    top: 12px;
+    left: 34px;
+    color: #ffffff;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 53;
+  }
+  .pic-12 {
+    position: absolute;
+    width: 350px;
+    height: 0.5px;
+    top: 217.75px;
+    left: 0;
+    /* background: url(./assets/images/df751d3a-ace0-4558-9655-106600f60882.png)
+      no-repeat center; */
+    background-size: cover;
+  }
+  
